@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPrestamos" targetNamespace="http://tempuri.org/DSPrestamos.xsd" xmlns:mstns="http://tempuri.org/DSPrestamos.xsd" xmlns="http://tempuri.org/DSPrestamos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPrestamos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DSPrestamos" msprop:Generator_DataSetName="DSPrestamos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Prestamos_x0020_devueltos" msprop:Generator_RowEvHandlerName="Prestamos_devueltosRowChangeEventHandler" msprop:Generator_RowDeletedName="Prestamos_devueltosRowDeleted" msprop:Generator_RowDeletingName="Prestamos_devueltosRowDeleting" msprop:Generator_RowEvArgName="Prestamos_devueltosRowChangeEvent" msprop:Generator_TablePropName="Prestamos_devueltos" msprop:Generator_RowChangedName="Prestamos_devueltosRowChanged" msprop:Generator_RowChangingName="Prestamos_devueltosRowChanging" msprop:Generator_TableClassName="Prestamos_devueltosDataTable" msprop:Generator_RowClassName="Prestamos_devueltosRow" msprop:Generator_TableVarName="tablePrestamos_devueltos" msprop:Generator_UserTableName="Prestamos devueltos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_prestamo" msprop:Generator_ColumnPropNameInRow="ID_prestamo" msprop:Generator_ColumnPropNameInTable="ID_prestamoColumn" msprop:Generator_ColumnVarNameInTable="columnID_prestamo" msprop:Generator_UserColumnName="ID_prestamo" type="xs:string" minOccurs="0" />
+              <xs:element name="CodigoIBSN" msprop:Generator_ColumnPropNameInRow="CodigoIBSN" msprop:Generator_ColumnPropNameInTable="CodigoIBSNColumn" msprop:Generator_ColumnVarNameInTable="columnCodigoIBSN" msprop:Generator_UserColumnName="CodigoIBSN" type="xs:string" minOccurs="0" />
+              <xs:element name="solicitante_DNI" msprop:Generator_ColumnPropNameInRow="solicitante_DNI" msprop:Generator_ColumnPropNameInTable="solicitante_DNIColumn" msprop:Generator_ColumnVarNameInTable="columnsolicitante_DNI" msprop:Generator_UserColumnName="solicitante_DNI" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_prestamo" msprop:Generator_ColumnPropNameInRow="Fecha_prestamo" msprop:Generator_ColumnPropNameInTable="Fecha_prestamoColumn" msprop:Generator_ColumnVarNameInTable="columnFecha_prestamo" msprop:Generator_UserColumnName="Fecha_prestamo" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_devuelto" msprop:Generator_ColumnPropNameInRow="Fecha_devuelto" msprop:Generator_ColumnPropNameInTable="Fecha_devueltoColumn" msprop:Generator_ColumnVarNameInTable="columnFecha_devuelto" msprop:Generator_UserColumnName="Fecha_devuelto" type="xs:string" minOccurs="0" />
+              <xs:element name="Devuelto" msprop:Generator_ColumnPropNameInRow="Devuelto" msprop:Generator_ColumnPropNameInTable="DevueltoColumn" msprop:Generator_ColumnVarNameInTable="columnDevuelto" msprop:Generator_UserColumnName="Devuelto" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
